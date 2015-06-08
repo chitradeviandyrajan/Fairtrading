@@ -1,0 +1,401 @@
+/* function tools */
+body .secondary #function-tools-upper ,
+body .secondary #function-tools-lower,
+body .secondary .function-tools-upper ,
+body .secondary .function-tools-lower {
+	margin: 5px 0;
+	padding-top: 5px;
+	/*z-index : 2;*/
+	float: right;
+}
+
+/* content*/
+#content-inner, #content-inner-2column  {
+	float: left;
+}
+#content-inner-no-left-col {
+	margin-left: 14px !important;
+}
+
+#contentstart, #body-print {
+	clear:both;
+	display: block;
+}
+#body-print {
+	width: 100%;	
+	float: left;
+	padding-bottom: 20px;
+}
+#body-print ol
+{
+	text-align : left;
+	font-family : verdana, arial, helvetica;
+	margin-left: 30px;
+}
+#right-col {
+	float: right;
+	width: 25%;
+}
+
+.no-right-col {
+	padding-right: 14px !important;
+	width: 95% !important;
+}
+
+#right-col-search {
+	float: right;
+	width: 25%;
+}
+#body-print h1, #body-print h2, #body-print h3, #body-print h4 {
+	color: #006;
+}
+#body-print h1:first-letter , #body-print h2:first-letter , #body-print h3:first-letter , #body-print h4:first-letter { text-transform: uppercase;} /* spaces are necessary for this to work in ieWin6 */
+
+#body-print h1 {
+	font-size: 1.4em;
+	padding-top: 7px;
+}
+#body-print h1.pageheading {
+	border-top: 1px solid #999;
+	font-size:1.8em;
+	text-transform: none;
+	padding-bottom: 15px;
+}
+#body-print h1.subheading {
+	font-size:1.6em;
+	text-transform: none !important;	
+}
+#body-print h2 {
+	font-size: 1.25em;
+	margin-top: 15px;
+}
+#body-print h3 {
+	font-size: 1.1em;
+	margin-top: 15px;
+}
+#body-print h4 {
+	font-size: 1em;
+	margin-top: 15px;
+}
+
+#body-print a.bodyheading {
+	margin-top: 10px; 
+	font-weight: bold;
+	display: inline-block;
+}
+#right-col h2
+{
+	color:#006;
+	font-size:1.1em;
+	text-indent:15px;
+}
+#body-print p, #body-print li {
+	font-size: .9em;
+}
+
+#body-print td h1, #body-print td h2, #body-print td h3, #body-print td h4 {
+	margin-top: 0px !important;
+}
+#body-print p {
+	margin: 10px 0 ;
+	display:block;
+}
+
+#body-print p.gotop {
+	padding-top: 0px;
+}
+
+#body-print th, #body-print td,  #body-print tr td {
+	font-size: 0.9em !important;
+	padding: 4px;
+}
+#body-print td p {
+	margin: 0;
+	margin-top: 10px;
+	font-size: 1em !important;
+}
+
+#body-print td a {
+	font-size: 1em !important;
+}
+#body-print td ul li {
+	font-size: 1em !important;
+}
+#body-print  #info-container ul,  #body-print  #breadcrumbs ul{
+	list-style-type: none; 
+	margin: 0;
+}
+
+#body-print #info-container p {
+	margin: 5px 5px;
+}
+#body-print  #info-container ul {
+	padding-left: 0px;
+}
+#body-print ul {
+ margin-left: 0px;
+ list-style-type: disc;
+ padding: 0 0 0 0px;
+ padding-left:18px;
+ text-indent: 0px;
+}
+
+#body-print ul li div {
+	display:block;
+}
+#body-print  ul ul{
+ margin-left: 0px;
+ list-style-type: circle;
+ padding: 0 0 0 0px;
+ padding-left:30px;
+ text-indent: 0px;
+}
+#body-print li li, #body-print  li li li{
+	font-size: 1.0em !important;
+}
+#body-print ol {
+	list-style: decimal outside none;
+	margin: 0 0 0 15px;
+}
+#body-print ol li {
+    margin-left:25px;
+	padding-bottom: 6px;
+}
+
+#body-print  a {
+	color: #006;
+	border-bottom:1px solid #ccc;
+}
+#body-print a:hover, #body-print a:visited
+{
+color : #660033;	
+}
+
+a.bodyheading {
+
+	font-size : 0.9em;
+	font-weight : bold;
+}
+
+
+a.bookmark0, a.bookmark1, a.bookmark2,a.bookmark3,a.bookmark4 {
+	font-size: 0.9em;
+	text-transform: none;
+	padding: 0;
+	margin: 0;
+}
+
+a.bookmark0, a.bookmark1 {
+	margin-left: 0px;
+}
+a.bookmark2 {
+	margin-left: 10px;
+}
+a.bookmark3 {
+	margin-left: 20px;
+}
+a.bookmark4 {
+	margin-left: 30px;
+}
+div.bookmark_0 {
+	display: none;
+}
+div.bookmark_1, div.bookmark_2, div.bookmark_3, div.bookmark_4 {
+	padding: 0;
+	margin: 0;
+}
+div.bookmark_1 {
+	margin-left: 0px;
+}
+div.bookmark_2 {
+	margin-left: 10px;
+}
+div.bookmark_3 {
+	margin-left: 20px;
+}
+div.bookmark_4 {
+	margin-left: 30px;
+}
+div.bookmark_1 a, div.bookmark_2 a, div.bookmark_3 a, div.bookmark_4 a {
+	margin-left: 0px;
+}
+
+#function-tools-upper a, #function-tools-lower a, .function-tools-upper a, .function-tools-lower a, 
+#function-tools-lower-app a{
+	border: 0;
+}
+
+.intro {
+	padding-bottom: 10px;
+}
+
+/* left column (secondary navigation)
+*******************************************************************************/
+
+#side-nav {
+	font-size : 0.85em;
+	width: 162px;
+	margin-left : 1px;
+	float : left;
+	position : relative;
+	display : inline;
+/*	z-index : 5;*/
+	border-bottom: none;
+	border-top: 5px solid white;;
+}
+
+
+
+/* Related info */
+#related-info
+{
+margin-top: 10px;
+padding :3px;
+}
+#related-info h3
+{
+margin-top :0;
+font-size: 0.95em;
+color: #333;
+}
+
+#selectList {
+	/*z-index: 1;*/
+}
+
+/*removed the fixed min-height and height of 244px for all secondary pages*/
+#right-col li.link-list {
+	height: auto;
+	width: 95%;
+	padding-bottom: 10px;
+}
+html>body #right-col li.link-list {
+	height: auto;
+	padding-bottom: 10px;
+}
+
+@media print {
+	#page-title	{
+	padding-bottom: 8px;
+	/*color: black;*/
+	}
+	body {
+	/*color: black;*/
+	}
+}
+
+.printfooterdate, .printfootertext {font-size:0.83em; margin-top: 5px;}
+
+#bodytext
+{
+display:block;
+width: auto;
+}
+
+#bodytext p
+{
+padding-bottom: 5px;
+}
+
+div.bodyreplicant {
+	display:block;
+	width: auto;
+	padding-bottom: 10px;
+}
+
+blockquote {
+	margin: 0;
+	padding: 0px 30px;
+}
+blockquote p {
+	margin: 0 !important;
+}
+
+/* styles for button to esd application*/
+a.btnLink, a.btnLink:visited
+{
+padding:6px 6px 6px 6px;
+margin:1px 1px 1px 1px;
+background-color:#376798;
+border-right:solid 1px #066;
+border-bottom:solid 1px #066;
+border-top:solid 1px #8AB696;
+border-left:solid 1px #8AB696;
+text-decoration:none;
+text-align: center;
+color: #ffffff  !important;
+font-size:80%;
+font-weight:bold;
+height:20px;
+}
+
+a.btnLink:active
+{
+padding:6px 6px 6px 6px;
+margin:1px 1px 1px 1px;
+background-color:#376798;
+border-right:solid 1px #066;
+border-bottom:solid 1px #066;
+border-top:solid 1px #8AB696;
+border-left:solid 1px #8AB696;
+text-decoration:none;
+text-align: center;
+color: #ffffff  !important;
+font-size:80%;
+font-weight:bold;
+height:20px;
+}
+
+a.btnLink:hover
+{
+padding:6px 6px 6px 6px;
+margin:1px 1px 1px 1px;
+background-color:#4682B4;
+border-right:solid 1px #066;
+border-bottom:solid 1px #066;
+border-top:solid 1px #8AB696;
+border-left:solid 1px #8AB696;
+text-decoration:underline;
+text-align: center;
+color: #ffffff !important;
+font-size:80%;
+font-weight:bold;
+height:20px;
+}
+
+
+/* Homepage RSS Feeds*/
+
+body .secondary .body-content .body-min-width {
+	float: left;
+	padding-bottom: 15px;
+	width: 100%;
+}
+body .secondary .body-content .body-min-width li {
+	list-style-type:none;
+	padding-left:15px;
+	margin-left: 10px;
+	margin-bottom: 5px;
+	font-size: 0.9em;
+}
+body .secondary .body-content .body-min-width li a{
+	line-height: 1em;
+	color: #000;
+	text-decoration: none  !important;
+	border-bottom: 1px solid #ccc  !important;
+}
+body .secondary .body-content .body-min-width #rss a {
+	padding: 10px 0px 6px 0;  
+	background: none;
+	text-decoration: none  !important;
+	border-bottom: 1px solid #ccc  !important;
+}
+body .secondary .body-content .body-min-width #rss a {
+	margin-left: 32px;  
+	font-size: 0.8em;
+	text-decoration: none  !important;
+	border-bottom: 1px solid #ccc  !important;
+	background:transparent url(../images/red_chevron.jpg) no-repeat scroll right 60%;
+	padding: 2px 22px 2px 0;
+}
+

@@ -1,0 +1,103 @@
+@media print {   /* Specific CSS styles for OIRWWW */
+	body {
+	  color: #000;
+	  font-family: Verdana,Geneva,Arial,Helvetica,sans-serif;
+	  font-size: 95.01%;
+	  width: 100%;
+	  background-color: #fff;
+	}
+	#inner-wrapper {
+	  background: none;
+	   margin: 0;
+	  max-width: 1004px;
+	  min-width: 800px;
+	  padding-right: 0px;
+	  width: 1004px;
+	}
+
+	#inner-wrapper, #inner-wrapper > #footer {
+	  width: 1004px !important;
+	}
+
+	/*  Header  */
+	#header, .header {	
+		background-image: none;
+	}
+	#header .indigenous,
+	.indigenous .header {
+	  background-image: none;
+	}
+	#header .language, 
+	.language .header {
+		  background-image: none;
+	}
+	#header .skip-content,
+	.header .skip-content {
+		display: none;
+	}
+
+
+	/* Header tools bar */
+	#tools {
+		display: none;
+	}
+
+	/* Top navigation */
+	#cim_top-nav {
+		display: none;
+	}
+	.secondary #ls-row-2 {
+	  background-image: none;
+	  border-top: 1px solid #333;
+	}
+
+
+	/* Side Navigation */
+	#left-col {
+		display: none !important;
+	}
+
+
+	/* Content*/
+
+	/* Main Content */
+	.secondary #ls-row-2 #content-inner, 
+	.secondary #ls-row-2 #content-inner-2column {
+		border: none;
+		border-top: 1px solid #333;
+		border-bottom: 1px solid #333;
+	  	background-color: #FFFFFF;
+		width: 762px;
+	}
+	.secondary #ls-row-2 #content-inner {
+	  width: 524px;
+	}
+	body .secondary #function-tools-upper,
+	body .secondary #function-tools-lower, 
+	body .secondary .function-tools-upper, 
+	body .secondary .function-tools-lower {
+	  display: none;
+	}
+	#body-print {
+	  float: none;
+	}
+
+
+	/* Right column*/
+	#right-col {
+		display: none;
+	}
+
+
+	/* Footer */
+	.footer {
+	  background-color: #fff;
+ 	  color: #000;
+	}
+	.footer a, .footer .updated {
+	  color: #000;
+	}
+
+
+
+}

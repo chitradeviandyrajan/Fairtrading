@@ -1,0 +1,290 @@
+/* SIDE NAV SYLES */
+body#secondary #inner-wrapper {
+	background: #fff url("../../global/images/sidenav/side_nav_palegrey_background.gif") repeat-y top left;
+}
+
+/* Also in section side nav (second level nav)
+*******************************************************************************/
+#side-nav,
+#side-nav-all {
+	font-size : 0.85em;
+	width: 162px;
+	/*width : 170px;*/
+	float : left;
+	position : relative;
+	display : inline;
+	z-index : 5;
+	border-bottom: none;
+	border-top: 5px solid white;
+	margin: 0;
+	border-right: 1px solid #fff;
+}
+
+div.navigation {
+	width: 162px;
+	font-weight: normal;
+	padding : 0px;
+	background : #ccc;
+	margin : 0;
+}
+
+div.navigation ul li
+{
+	width : 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.navigation div, .navigation #listitem, .navigation #listitem-all, .navigation .listitem, .navigation .listitem-all, .navigation div a, .navigation div div,
+.navigation div div a {
+	display:inline;
+}
+
+.navigation #listitem,
+.navigation #listitem-all,
+.navigation .listitem,
+.navigation .listitem-all {
+	float: left;
+	margin:0;
+	padding: 0;
+	width:100%;
+	border-bottom: 1px solid #fff;
+}
+
+
+#side-nav a, #side-nav a:visited,
+#side-nav-all a, #side-nav-all a:visited{
+	padding : 5px 0px 5px 2px;
+	float: left;
+	display:block;
+	text-decoration : none;
+	width: 160px;
+	border-bottom: none;
+}
+
+
+#side-nav a:hover, #side-nav a:visited:hover,
+#side-nav-all a:hover, #side-nav-all a:visited:hover {{
+	padding : 5px 0px 5px 2px;
+	background-color:#fff;
+	color:#333;
+	width: 160px;
+/*	border: 1px solid #fff; */
+}
+
+.navigation .menus_level2_list,
+.navigation .menus_level3_list,
+.navigation .menus_level2_item,
+.navigation .menus_level3_item,
+.navigation .menus_level4_item {
+	margin: 0px;
+	padding: 0px;
+	display: inline;
+	text-decoration : underline;
+}
+
+.navigation .highlight_2,
+.navigation .highlight_3,
+.navigation .highlight_4 {
+	display:block;
+	float: left;
+	width: 100%;
+}
+
+/* Level 2 */
+
+/* menu item */
+.navigation .menus_level2_item a, .navigation .menus_level2_item a:visited {
+	background:#ccc;
+	color:#333;
+}
+.navigation .menus_level2_item a:hover
+{
+	background: #fff;
+	color:#333;
+}
+.navigation .highlight_2 .menus_level2_item a {
+	background: #666;
+	color:#fff;
+}
+
+/* menu list */
+.navigation .menus_level2_list a,
+.navigation .menus_level2_list a:visited {
+	background:#ccc url("../../global/images/sidenav/Arrow_grey.gif") no-repeat 148px center;
+	color:#333;
+}
+.navigation .menus_level2_list a:hover {
+	background:#fff url("../../global/images/sidenav/arrow_white_side.gif") no-repeat 148px center;
+	color:#333;
+}
+
+/* menu selected list */
+.navigation #list_selected_2 .menus_level2_list a,
+.navigation #list_selected_2 .menus_level2_list a:visited {
+	background: #999 url("../../global/images/sidenav/Arrow_white_down_midgreybg.gif") no-repeat 148px center;
+	color:#fff;
+}
+.navigation #list_selected_2 .menus_level2_list a:hover {
+	background:#fff url("../../global/images/sidenav/Arrow_grey_down_whitebg.gif") no-repeat 148px center;
+	color:#333;
+}
+
+/* menu selected and highlighted list */
+.navigation #list_selected_2 .highlight_2 .menus_level2_list a,
+.navigation #list_selected_2 .highlight_2 .menus_level2_list a:visited {
+	background: #666 url("../../global/images/sidenav/Arrow_white_down_darkgreybg.gif") no-repeat 148px center;
+	color:#fff;
+}
+.navigation #list_selected_2 .highlight_2 .menus_level2_list a:hover {
+	background:#fff url("../../global/images/sidenav/Arrow_grey_down_whitebg.gif") no-repeat 148px center;
+	color:#333;
+}
+
+/* menu item/list span */
+.navigation .menus_level2_item a span,
+.navigation .menus_level2_list a span {
+	display: block;
+	margin-right: 15px;
+}
+
+/* Level 3 */
+
+
+/* menu item */
+.navigation .menus_level3_item a, .navigation .menus_level3_item a:visited {
+	background-color:#999;
+    color : #fff;  
+}
+.navigation .menus_level3_item a:hover
+{
+	background: #fff;
+	color:#333;
+}
+.navigation .highlight_3 .menus_level3_item a {
+	background: #666;
+	color:#fff;
+}
+
+/* menu list */
+.navigation .menus_level3_list a,
+.navigation .menus_level3_list a:visited {
+	background: #999 url("../../global/images/sidenav/Arrow_white_midgreybg.gif") no-repeat 148px center;
+	color:#fff;
+
+}
+.navigation .menus_level3_list a:hover {
+	background:#fff url("../../global/images/sidenav/arrow_white_side.gif") no-repeat 148px center;
+	color:#333;
+}
+
+/* menu selected list */
+.navigation #list_selected_3 .menus_level3_list a,
+.navigation #list_selected_3 .menus_level3_list a:visited {
+	background: #999 url("../../global/images/sidenav/Arrow_white_down_midgreybg.gif") no-repeat 148px center;
+	color:#fff;
+}
+.navigation #list_selected_3 .menus_level3_list a:hover {
+	background:#fff url("../../global/images/sidenav/Arrow_grey_down_whitebg.gif") no-repeat 148px center;
+	color:#333;
+}
+
+/* menu selected and highlighted list */
+.navigation #list_selected_3 .highlight_3 .menus_level3_list a,
+.navigation #list_selected_3 .highlight_3 .menus_level3_list a:visited {
+	background: #666 url("../../global/images/sidenav/Arrow_white_down_darkgreybg.gif") no-repeat 148px center;
+	color:#fff;
+}
+.navigation #list_selected_3 .highlight_3 .menus_level3_list a:hover {
+	background:#fff url("../../global/images/sidenav/Arrow_grey_down_whitebg.gif") no-repeat 148px center;
+	color:#333;
+}
+
+/* menu item/list span */
+.navigation  .menus_level3_item a span,
+.navigation .menus_level3_list a span {
+	display: block;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+/* Level 4 */
+
+/* menu item */
+.navigation .menus_level4_item a, .navigation .menus_level4_item a:visited {
+	background-color:#999;
+    color : #fff;  
+}
+.navigation .menus_level4_item a:hover
+{
+	background: #fff;
+	color:#333;
+}
+.navigation .highlight_4 .menus_level4_item a {
+	background: #666;
+	color:#fff;
+}
+
+/* menu list */
+.navigation .menus_level4_list a,
+.navigation .menus_level4_list a:visited {
+	background: #999 url("../../global/images/sidenav/Arrow_white_midgreybg.gif") no-repeat 148px center;
+	color:#fff;
+
+}
+.navigation .menus_level4_list a:hover {
+	background:#fff url("../../global/images/sidenav/arrow_white_side.gif") no-repeat 148px center;
+	color:#333;
+}
+
+/* menu selected list */
+.navigation #list_selected_4 .menus_level4_list a,
+.navigation #list_selected_4 .menus_level4_list a:visited {
+	background: #999 url("../../global/images/sidenav/Arrow_white_down_midgreybg.gif") no-repeat 148px center;
+	color:#fff;
+}
+.navigation #list_selected_4 .menus_level4_list a:hover {
+	background:#fff url("../../global/images/sidenav/Arrow_grey_down_whitebg.gif") no-repeat 148px center;
+	color:#333;
+}
+
+/* menu selected and highlighted list */
+.navigation #list_selected_4 .highlight_4 .menus_level4_list a,
+.navigation #list_selected_4 .highlight_4 .menus_level4_list a:visited {
+	background: #666 url("../../global/images/sidenav/Arrow_white_down_darkgreybg.gif") no-repeat 148px center;
+	color:#fff;
+}
+.navigation #list_selected_4 .highlight_4 .menus_level4_list a:hover {
+	background:#fff url("../../global/images/sidenav/Arrow_grey_down_whitebg.gif") no-repeat 148px center;
+	color:#333;
+}
+
+/* menu item/list span */
+
+.navigation .menus_level4_item a span,
+.navigation .menus_level4_list a span {
+	display: block;
+	margin-left: 30px;
+	margin-right:15px;
+}
+
+/* Level 5*/
+
+.navigation .menus_level5_item a, .navigation .menus_level5_item a:visited  
+{
+	background-color:#999;
+	color:#fff;
+}
+
+ .navigation .menus_level5_item a:hover {
+	background-color:#fff;
+	color:#333;
+}
+
+.navigation .menus_level5_item a span,
+.navigation .menus_level5_list a span {
+	display: block;
+	margin-left: 45px;
+	margin-right:15px;
+}
+

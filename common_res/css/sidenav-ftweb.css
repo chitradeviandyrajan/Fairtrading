@@ -1,0 +1,392 @@
+BODY#secondary #inner-wrapper {
+	BACKGROUND: url(../images/sidenav/side_nav_palegrey_background.gif) #fff repeat-y left top
+}
+#side-nav {
+	Z-INDEX: 5; BORDER-BOTTOM: medium none; POSITION: static; MARGIN: 0px; WIDTH: 162px; DISPLAY: inline; FLOAT: left; FONT-SIZE: 0.85em; BORDER-TOP: white 5px solid; BORDER-RIGHT: #fff 1px solid
+}
+html>/**/body #side-nav {
+	position: relative;
+}
+.navigation {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 162px; PADDING-RIGHT: 0px; BACKGROUND: #ccc; FONT-WEIGHT: normal; PADDING-TOP: 0px
+}
+.navigation UL LI {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+.navigation DIV {
+	DISPLAY: inline
+}
+.navigation #listitem {
+	DISPLAY: inline
+}
+.navigation .listitem {
+	DISPLAY: inline
+}
+.navigation DIV A {
+	DISPLAY: inline
+}
+.navigation DIV DIV {
+	DISPLAY: inline
+}
+.navigation DIV DIV A {
+	DISPLAY: inline
+}
+.navigation #listitem {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; FLOAT: left; PADDING-TOP: 0px;
+	border: none;
+}
+.navigation .listitem {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 100%; PADDING-RIGHT: 0px; FLOAT: left; PADDING-TOP: 0px;
+	border-bottom: none;
+}
+#side-nav A {
+	PADDING-BOTTOM: 5px;
+	PADDING-LEFT: 2px; 
+	WIDTH: 160px; 
+	PADDING-RIGHT: 0px; 
+	DISPLAY: block; 
+	FLOAT: left; 
+	TEXT-DECORATION: none; 
+	PADDING-TOP: 5px;
+	border-bottom: 1px solid #FFFFFF !important;
+}
+#side-nav A:visited {
+	PADDING-BOTTOM: 5px; PADDING-LEFT: 2px; WIDTH: 160px; PADDING-RIGHT: 0px; DISPLAY: block; FLOAT: left; TEXT-DECORATION: none; PADDING-TOP: 5px
+}
+#side-nav A:hover {
+	PADDING-BOTTOM: 5px; BACKGROUND-COLOR: #fff; PADDING-LEFT: 2px; WIDTH: 160px; PADDING-RIGHT: 0px; COLOR: #333; PADDING-TOP: 5px
+}
+#side-nav A:hover:visited {
+	PADDING-BOTTOM: 5px; BACKGROUND-COLOR: #fff; PADDING-LEFT: 2px; WIDTH: 160px; PADDING-RIGHT: 0px; COLOR: #333; PADDING-TOP: 5px
+}
+.navigation .menus_level2_list {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: inline; TEXT-DECORATION: underline; PADDING-TOP: 0px
+}
+.navigation .menus_level3_list {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: inline; TEXT-DECORATION: underline; PADDING-TOP: 0px
+}
+.navigation .menus_level2_item {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: inline; TEXT-DECORATION: underline; PADDING-TOP: 0px
+}
+.navigation .menus_level3_item {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: inline; TEXT-DECORATION: underline; PADDING-TOP: 0px
+}
+.navigation .menus_level4_item {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; DISPLAY: inline; TEXT-DECORATION: underline; PADDING-TOP: 0px
+}
+.navigation .highlight_2 {
+	WIDTH: 100%; DISPLAY: block; FLOAT: left
+}
+.navigation .highlight_3 {
+	WIDTH: 100%; DISPLAY: block; FLOAT: left
+}
+.navigation .highlight_4 {
+	WIDTH: 100%; DISPLAY: block; FLOAT: left
+}
+.navigation .menus_level2_item A {
+	BACKGROUND: #ccc; COLOR: #333
+}
+.navigation .menus_level2_item A:visited {
+	BACKGROUND: #ccc; COLOR: #333
+}
+.navigation .menus_level2_item A:hover {
+	BACKGROUND: #fff; COLOR: #333
+}
+.navigation .highlight_2 .menus_level2_item A {
+	BACKGROUND: #666; COLOR: #fff
+}
+.navigation .menus_level2_list A {
+	BACKGROUND: url(..//images/sidenav/Arrow_grey.gif) #ccc no-repeat 148px center; COLOR: #333
+}
+.navigation .menus_level2_list A:visited {
+	BACKGROUND: url(..//images/sidenav/Arrow_grey.gif) #ccc no-repeat 148px center; COLOR: #333
+}
+.navigation .menus_level2_list A:hover {
+	BACKGROUND: url(..//images/sidenav/arrow_white_side.gif) #fff no-repeat 148px center; COLOR: #333
+}
+.navigation #list_selected_2 .menus_level2_list A {
+	BACKGROUND: url(..//images/sidenav/Arrow_white_down_midgreybg.gif) #999 no-repeat 148px center; COLOR: #fff
+}
+.navigation #list_selected_2 .menus_level2_list A:visited {
+	BACKGROUND: url(..//images/sidenav/Arrow_white_down_midgreybg.gif) #999 no-repeat 148px center; COLOR: #fff
+}
+.navigation #list_selected_2 .menus_level2_list A:hover {
+	BACKGROUND: url(..//images/sidenav/Arrow_grey_down_whitebg.gif) #fff no-repeat 148px center; COLOR: #333
+}
+.navigation #list_selected_2 .highlight_2 .menus_level2_list A {
+	BACKGROUND: url(..//images/sidenav/Arrow_white_down_darkgreybg.gif) #666 no-repeat 148px center; COLOR: #fff
+}
+.navigation #list_selected_2 .highlight_2 .menus_level2_list A:visited {
+	BACKGROUND: url(..//images/sidenav/Arrow_white_down_darkgreybg.gif) #666 no-repeat 148px center; COLOR: #fff
+}
+.navigation #list_selected_2 .highlight_2 .menus_level2_list A:hover {
+	BACKGROUND: url(..//images/sidenav/Arrow_grey_down_whitebg.gif) #fff no-repeat 148px center; COLOR: #333
+}
+.navigation .menus_level2_item A SPAN {
+	DISPLAY: block; MARGIN-RIGHT: 15px
+}
+.navigation .menus_level2_list A SPAN {
+	DISPLAY: block; MARGIN-RIGHT: 15px
+}
+.navigation .menus_level3_item A {
+	BACKGROUND-COLOR: #999; COLOR: #fff
+}
+.navigation .menus_level3_item A:visited {
+	BACKGROUND-COLOR: #999; COLOR: #fff
+}
+.navigation .menus_level3_item A:hover {
+	BACKGROUND: #fff; COLOR: #333
+}
+.navigation .highlight_3 .menus_level3_item A {
+	BACKGROUND: #666; COLOR: #fff
+}
+.navigation .menus_level3_list A {
+	BACKGROUND: url(..//images/sidenav/Arrow_white_midgreybg.gif) #999 no-repeat 148px center; COLOR: #fff
+}
+.navigation .menus_level3_list A:visited {
+	BACKGROUND: url(..//images/sidenav/Arrow_white_midgreybg.gif) #999 no-repeat 148px center; COLOR: #fff
+}
+.navigation .menus_level3_list A:hover {
+	BACKGROUND: url(..//images/sidenav/arrow_white_side.gif) #fff no-repeat 148px center; COLOR: #333
+}
+.navigation #list_selected_3 .menus_level3_list A {
+	BACKGROUND: url(..//images/sidenav/Arrow_white_down_midgreybg.gif) #999 no-repeat 148px center; COLOR: #fff
+}
+.navigation #list_selected_3 .menus_level3_list A:visited {
+	BACKGROUND: url(..//images/sidenav/Arrow_white_down_midgreybg.gif) #999 no-repeat 148px center; COLOR: #fff
+}
+.navigation #list_selected_3 .menus_level3_list A:hover {
+	BACKGROUND: url(..//images/sidenav/Arrow_grey_down_whitebg.gif) #fff no-repeat 148px center; COLOR: #333
+}
+.navigation #list_selected_3 .highlight_3 .menus_level3_list A {
+	BACKGROUND: url(..//images/sidenav/Arrow_white_down_darkgreybg.gif) #666 no-repeat 148px center; COLOR: #fff
+}
+.navigation #list_selected_3 .highlight_3 .menus_level3_list A:visited {
+	BACKGROUND: url(..//images/sidenav/Arrow_white_down_darkgreybg.gif) #666 no-repeat 148px center; COLOR: #fff
+}
+.navigation #list_selected_3 .highlight_3 .menus_level3_list A:hover {
+	BACKGROUND: url(..//images/sidenav/Arrow_grey_down_whitebg.gif) #fff no-repeat 148px center; COLOR: #333
+}
+.navigation .menus_level3_item A SPAN {
+	DISPLAY: block; MARGIN-LEFT: 15px; MARGIN-RIGHT: 15px
+}
+.navigation .menus_level3_list A SPAN {
+	DISPLAY: block; MARGIN-LEFT: 15px; MARGIN-RIGHT: 15px
+}
+.navigation .menus_level4_item A {
+	BACKGROUND-COLOR: #999; COLOR: #fff
+}
+.navigation .menus_level4_item A:visited {
+	BACKGROUND-COLOR: #999; COLOR: #fff
+}
+.navigation .menus_level4_item A:hover {
+	BACKGROUND: #fff; COLOR: #333
+}
+.navigation .highlight_4 .menus_level4_item A {
+	BACKGROUND: #666; COLOR: #fff
+}
+.navigation .menus_level4_list A {
+/*	BACKGROUND: url(..//images/sidenav/Arrow_white_midgreybg.gif) #999 no-repeat 148px center;*/
+	Background: none;
+	Background-color: #999;	
+	COLOR: #fff;
+}
+.navigation .menus_level4_list A:visited {
+/*	BACKGROUND: url(..//images/sidenav/Arrow_white_midgreybg.gif) #999 no-repeat 148px center;*/
+	Background: none;
+	Background-color: #999;
+	COLOR: #fff;
+}
+.navigation .menus_level4_list A:hover {
+/*	BACKGROUND: url(..//images/sidenav/arrow_white_side.gif) #fff no-repeat 148px center;*/
+	Background: none;
+	Background-color: #fff;
+	COLOR: #333
+}
+.navigation #list_selected_4 .menus_level4_list A {
+/*	BACKGROUND: url(..//images/sidenav/Arrow_white_down_midgreybg.gif) #999 no-repeat 148px center;*/
+	Background: none;
+	Background-color: #999;
+	COLOR: #fff;
+}
+.navigation #list_selected_4 .menus_level4_list A:visited {
+/*	BACKGROUND: url(..//images/sidenav/Arrow_white_down_midgreybg.gif) #999 no-repeat 148px center;*/
+	Background: none;
+	Background-color: #999;
+	COLOR: #fff
+}
+.navigation #list_selected_4 .menus_level4_list A:hover {
+/*	BACKGROUND: url(..//images/sidenav/Arrow_grey_down_whitebg.gif) #fff no-repeat 148px center; */
+	Background: none;
+	Background-color: #fff;
+	COLOR: #333
+}
+.navigation #list_selected_4 .highlight_4 .menus_level4_list A {
+/*	BACKGROUND: url(..//images/sidenav/Arrow_white_down_darkgreybg.gif) #666 no-repeat 148px center; */
+	Background: none;
+	Background-color: #666;
+	COLOR: #fff
+}
+.navigation #list_selected_4 .highlight_4 .menus_level4_list A:visited {
+/*	BACKGROUND: url(..//images/sidenav/Arrow_white_down_darkgreybg.gif) #666 no-repeat 148px center; */
+	Background: none;
+	Background-color: #666;
+	COLOR: #fff
+}
+.navigation #list_selected_4 .highlight_4 .menus_level4_list A:hover {
+/*	BACKGROUND: url(..//images/sidenav/Arrow_grey_down_whitebg.gif) #fff no-repeat 148px center; */
+	Background: none;
+	Background-color: #fff;
+	COLOR: #333
+}
+.navigation .menus_level4_item A SPAN {
+	DISPLAY: block; MARGIN-LEFT: 30px; MARGIN-RIGHT: 15px
+}
+.navigation .menus_level4_list A SPAN {
+	DISPLAY: block; MARGIN-LEFT: 30px; MARGIN-RIGHT: 15px
+}
+.navigation .menus_level5_item A {
+	BACKGROUND-COLOR: #999; COLOR: #fff
+}
+.navigation .menus_level5_item A:visited {
+	BACKGROUND-COLOR: #999; COLOR: #fff
+}
+.navigation .menus_level5_item A:hover {
+	BACKGROUND-COLOR: #fff; COLOR: #333
+}
+.navigation .menus_level5_item A SPAN {
+	DISPLAY: block; MARGIN-LEFT: 45px; MARGIN-RIGHT: 15px
+}
+.navigation .menus_level5_list A SPAN {
+	DISPLAY: block; MARGIN-LEFT: 45px; MARGIN-RIGHT: 15px
+}
+
+
+.secondary #inner-wrapper .indigenous {
+	BACKGROUND: url(../images/side_color_indigenous.gif) #fff repeat-y left top;
+}
+.secondary #inner-wrapper .language {
+	BACKGROUND: url(../images/side_color_languages.gif) #fff repeat-y left top;
+}
+.secondary #inner-wrapper .youth {
+	BACKGROUND: url(../images/side_color_youth.gif) #fff repeat-y left top;
+}
+
+.secondary #inner-wrapper #left-col {
+	min-height: 200px;
+}
+.secondary #inner-wrapper .language #side-nav .navigation,
+.secondary #inner-wrapper .language #side-nav .navigation .menudiv,
+.secondary #inner-wrapper .indigenous #side-nav .navigation,
+.secondary #inner-wrapper .indigenous #side-nav .navigation .menudiv,
+.secondary #inner-wrapper .youth #side-nav .navigation,
+.secondary #inner-wrapper .youth #side-nav .navigation .menudiv {
+	display:none !important;
+}
+
+.secondary #inner-wrapper .indigenous #side-nav .specialpage-b2h {
+	height: 45px;
+	margin: 0;
+	padding: 0;
+	background-color: #f90;
+	width: 161px;
+}
+.secondary #inner-wrapper .language #side-image-lang {
+  background-color: #336601;
+  display: inline;
+  float: left;
+  font-size: 0.8em;
+  margin: 0;
+  padding: 0;
+  width: 161px;
+  z-index: 5;
+}
+.secondary #inner-wrapper .youth #side-image-youth {
+  display: inline;
+  float: left;
+  font-size: 0.8em;
+  margin: 0;
+  padding: 0;
+  width: 161px;
+  z-index: 5;
+  background-color: #990100;
+}
+
+
+.secondary #inner-wrapper .language #side-image-lang h2,
+.secondary #inner-wrapper .indigenous #side-image-indig h2,
+.secondary #inner-wrapper .youth #side-image-youth h2 {
+  padding-bottom: 0px;
+  color: #FFFFFF;
+  font-size: 1.6em;
+  margin: 5px 0;
+  text-align: center;
+  line-height: 1.5em;
+}
+.secondary #inner-wrapper .indigenous #side-image-indig h2 {
+  font-size: 1.2em;
+}
+
+.secondary #inner-wrapper .language #side-image-lang h2:first-letter,
+.secondary #inner-wrapper .indigenous #side-image-indig h2:first-letter,
+.secondary #inner-wrapper .youth #side-image-youth h2:first-letter {
+	TEXT-TRANSFORM: uppercase;	
+}
+.secondary #inner-wrapper .language #side-nav a,
+.secondary #inner-wrapper .youth #side-nav a,
+.secondary #inner-wrapper .indigenous #side-nav .specialpage-b2h a {
+	color: #fff;
+	border: none;
+	font-size: 1.5em;
+	font-weight: bold;
+	padding: 14px 0 2px;
+	text-align: center;
+	vertical-align: middle;
+	width:100%;
+	height: 28px;
+	float: none;
+        line-height: 1em;
+}
+.secondary #inner-wrapper .indigenous #side-nav .specialpage-b2h a {
+	font-size: 1.2em;
+}
+.secondary #inner-wrapper .language .side-image-photo,
+.secondary #inner-wrapper .indigenous .side-image-photo,
+.secondary #inner-wrapper .youth .side-image-photo {
+  border-bottom: 1px solid #FFFFFF;
+  border-top: 1px solid #FFFFFF;
+  margin: 0 !important;
+  padding: 0 !important;
+  vertical-align: bottom;
+}
+.secondary #inner-wrapper .language #side-nav .specialpage-b2h,
+.secondary #inner-wrapper .indigenous #side-nav .specialpage-b2h,
+.secondary #inner-wrapper .youth #side-nav .specialpage-b2h {
+  background: url("../images/white_line.gif") no-repeat scroll left bottom transparent;
+  height: 45px;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.secondary #inner-wrapper .indigenous #side-nav .specialpage-b2h a {
+	border-bottom: 1px solid #fff;
+}
+.secondary #inner-wrapper .language #side-nav #side-image-lang a:hover,
+.secondary #inner-wrapper .indigenous #side-nav .specialpage-b2h a:hover,
+.secondary #inner-wrapper .youth #side-nav .specialpage-b2h a:hover {
+	background-color: #666;
+}
+.secondary #inner-wrapper .language #side-nav #side-image-lang a span,
+.secondary #inner-wrapper .indigenous #side-nav .specialpage-b2h a span,
+.secondary #inner-wrapper .youth #side-nav .specialpage-b2h a span {
+  font-size: 1em;
+}
+.secondary #inner-wrapper .language #side-nav #side-image-lang a img,
+.secondary #inner-wrapper .indigenous #side-nav .specialpage-b2h a img,
+.secondary #inner-wrapper .youth #side-nav .specialpage-b2h a img {
+	border: none;
+}
+.secondary #inner-wrapper .language #side-nav .specialpage-landing {
+	height: 30px;
+	margin: 0;
+	padding: 0;
+}
